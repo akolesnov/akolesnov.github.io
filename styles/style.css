@@ -3,7 +3,6 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Neucha', sans-serif;
-	/*font-family: sans-serif;*/
 	font-size: 62.5%;
 	background: #484848;
 }
@@ -11,6 +10,11 @@ header {
 	display: flex;
 	background: #00A693;
 	padding: 0.3rem 1.5rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
 }
 header nav {
 	width: 100%;
@@ -87,4 +91,7 @@ footer a {
 }
 footer a:hover{
 	color: #00A693;
+}
+main{
+	margin-top: 3rem;
 }

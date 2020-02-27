@@ -1,0 +1,89 @@
+.skill-container {
+	padding: 5rem 12rem;
+	color: #fff;
+}
+.skill-wrap {
+	display: flex;
+	margin: 0.5rem 0;
+}
+.skill-icon {
+	min-width: 5rem;
+	height: 5rem;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 5rem;
+	margin-right: 1rem;
+}
+.skill-info {
+	width: 100%;
+	position: relative;
+}
+.skill-info::before, .skill-info::after{
+	height: 0.8rem;
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 42%;
+	border-radius: 1rem;
+}
+.skill-info::before {
+	width: 100%;
+	background: #fff;
+}
+.skill-info::after {
+	
+}
+.skill-info span {
+	display: inline-block;
+	font-size: 1.3rem;
+	letter-spacing: 1px;
+	position: absolute;
+	top: 13%;
+}
+.skill-name {
+	left: 0;
+}
+.skill-poss {
+	right: 0; 
+}
+.ps-ic {
+	background: #003366 ;
+	font-size: 3rem;
+}
+.ps-in::after {
+	width: 60%;
+	background: #003366 ;
+}
+.ht-ic {
+	background: tomato;
+	font-size: 1.8rem;
+}
+.ht-in::after {
+	width: 75%;
+	background: tomato;
+}
+.cs-ic {
+	background: green;
+	font-size: 2.5rem;
+}
+.cs-in::after {
+	width: 75%;
+	background: green;
+}
+.js-ic {
+	background: orange;
+	font-size: 3rem;
+}
+.js-in::after {
+	width: 25%;
+	background: orange;
+}
+.re-ic {
+	background: #007BA7;
+	font-size: 3rem;
+}
+.re-in::after {
+	width: 20%;
+	background: #007BA7;
+}
