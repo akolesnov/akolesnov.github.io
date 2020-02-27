@@ -76,7 +76,7 @@
 	font-size: 3rem;
 }
 .js-in::after {
-	width: 25%;
+	width: 35%;
 	background: orange;
 }
 .re-ic {
@@ -84,6 +84,14 @@
 	font-size: 3rem;
 }
 .re-in::after {
-	width: 20%;
+	width: 30%;
 	background: #007BA7;
+}
+.rd-ic {
+	background: blueviolet;
+	font-size: 3rem;
+}
+.rd-in::after {
+	width: 20%;
+	background: blueviolet;
 }

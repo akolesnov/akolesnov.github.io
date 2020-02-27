@@ -1,0 +1,26 @@
+.works-wrapper {
+	padding: 3rem 2rem;
+}
+.work-container {
+	display: grid;
+	grid-template-columns: 18rem 18rem 18rem;
+	grid-template-rows: 18rem 18rem;
+	grid-column-gap: 2rem;
+	grid-row-gap: 3rem;
+	justify-content: center;  
+}
+.work-item {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 18rem;
+	color: #fff;
+	font-size: 5rem;
+	border: 3px solid #fff;
+	border-radius: 1rem;
+	overflow: hidden;
+	background-image: url('../img/tlen.jpg');
+	background-size: cover;
+	outline: none;
+	position: relative;
+}

@@ -1,0 +1,42 @@
+.resume-wrap {
+	color:#fff;
+	text-align: left;
+	margin: 0 auto;
+	width: 60%;
+	padding-top: 3rem;
+}
+.resume-wrap h3 {
+	font-size: 2.5rem;
+	color: #00A693;
+	margin: 0.5rem 0;
+	letter-spacing: 2px;
+}
+.resume-wrap p {
+	font-size: 1.3rem;
+	letter-spacing: 1px;
+	margin: 2.5rem 0;
+	line-height: 1.8rem;
+}
+.resume-wrap button {
+	display: flex;
+	background: #00A693;
+	color: #fff;
+	border-style: none;
+	margin: 0 auto;
+	padding: 0.5rem 1.5rem;
+	font-size: 1.7rem;
+	font-family: 'Neucha';
+	border-radius: 1rem;
+	letter-spacing: 1px;
+	outline: none;
+}
+.resume-wrap button:hover {
+	color:#707070;
+	cursor: pointer;
+}
+.resume-wrap button div {
+	margin-right: 0.3rem;
+}
+.resume-wrap button div i{
+	font-weight: 600;
+}
