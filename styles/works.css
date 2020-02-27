@@ -1,23 +1,23 @@
 .works-wrapper {
-	padding: 3rem 2rem;
+	padding: 4.8rem 3.2rem;
 }
 .work-container {
 	display: grid;
-	grid-template-columns: 18rem 18rem 18rem;
-	grid-template-rows: 18rem 18rem;
-	grid-column-gap: 2rem;
-	grid-row-gap: 3rem;
+	grid-template-columns: 28.8rem 28.8rem 28.8rem;
+	grid-template-rows: 28.8rem 28.8rem;
+	grid-column-gap: 3.2rem;
+	grid-row-gap: 4.8rem;
 	justify-content: center;  
 }
 .work-item {
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	line-height: 18rem;
+	line-height: 28.8rem;
 	color: #fff;
-	font-size: 5rem;
+	font-size: 8rem;
 	border: 3px solid #fff;
-	border-radius: 1rem;
+	border-radius: 1.6rem;
 	overflow: hidden;
 	background-image: url('../img/tlen.jpg');
 	background-size: cover;

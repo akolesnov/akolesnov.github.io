@@ -1,31 +1,31 @@
 .skill-container {
-	padding: 5rem 12rem;
+	padding: 8rem 19.2rem;
 	color: #fff;
 }
 .skill-wrap {
 	display: flex;
-	margin: 0.5rem 0;
+	margin: 0.8rem 0;
 }
 .skill-icon {
-	min-width: 5rem;
-	height: 5rem;
+	min-width: 8rem;
+	height: 8rem;
 	border: 3px solid #fff;
 	border-radius: 50%;
 	text-align: center;
-	line-height: 5rem;
-	margin-right: 1rem;
+	line-height: 8rem;
+	margin-right: 1.6rem;
 }
 .skill-info {
 	width: 100%;
 	position: relative;
 }
 .skill-info::before, .skill-info::after{
-	height: 0.8rem;
+	height: 1.28rem;
 	position: absolute;
 	content: '';
 	left: 0;
 	top: 42%;
-	border-radius: 1rem;
+	border-radius: 1.6rem;
 }
 .skill-info::before {
 	width: 100%;
@@ -36,7 +36,7 @@
 }
 .skill-info span {
 	display: inline-block;
-	font-size: 1.3rem;
+	font-size: 2.1rem;
 	letter-spacing: 1px;
 	position: absolute;
 	top: 13%;
@@ -49,7 +49,7 @@
 }
 .ps-ic {
 	background: #003366 ;
-	font-size: 3rem;
+	font-size: 4.8rem;
 }
 .ps-in::after {
 	width: 60%;
@@ -57,7 +57,7 @@
 }
 .ht-ic {
 	background: tomato;
-	font-size: 1.8rem;
+	font-size: 2.9rem;
 }
 .ht-in::after {
 	width: 75%;
@@ -65,7 +65,7 @@
 }
 .cs-ic {
 	background: green;
-	font-size: 2.5rem;
+	font-size: 4rem;
 }
 .cs-in::after {
 	width: 75%;
@@ -73,7 +73,7 @@
 }
 .js-ic {
 	background: orange;
-	font-size: 3rem;
+	font-size: 4.8rem;
 }
 .js-in::after {
 	width: 35%;
@@ -81,7 +81,7 @@
 }
 .re-ic {
 	background: #007BA7;
-	font-size: 3rem;
+	font-size: 4.8rem;
 }
 .re-in::after {
 	width: 30%;
@@ -89,7 +89,7 @@
 }
 .rd-ic {
 	background: blueviolet;
-	font-size: 3rem;
+	font-size: 4.8rem;
 }
 .rd-in::after {
 	width: 20%;

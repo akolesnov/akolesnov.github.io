@@ -1,15 +1,18 @@
+html {
+	font-size: 62.5%;
+}
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Neucha', sans-serif;
-	font-size: 62.5%;
+	
 	background: #484848;
 }
 header {
 	display: flex;
 	background: #00A693;
-	padding: 0.3rem 1.5rem;
+	padding: 0.5rem 2.4rem;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -20,15 +23,15 @@ header nav {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	padding: 0.2rem; 
+	padding: 0.32rem; 
 }
 header nav a {
 	display: flex;
 	color: #ffffff;
-	padding: 0.2rem 1rem 0.2rem 0.7rem;
-	height: 2rem;
+	padding: 0.32rem 1.6rem 0.32rem 1.12rem;
+	height: 3.2rem;
 	text-decoration: none;
-	border-radius: 1rem;
+	border-radius: 1.6rem;
 }
 header nav a:hover {
 	color:#707070;
@@ -37,11 +40,11 @@ header nav a:hover {
 	background:#484848;
 }
 .nav-item-icon{
-	width: 2rem;
-	height: 2 rem;
+	width: 3.2rem;
+	height: 3.2 rem;
 	text-align: center;
-	line-height: 2rem;
-	margin-right: 0.4rem;
+	line-height: 3.2rem;
+	margin-right: 0.6rem;
 }
 header nav a i {
 	width: 100%;
@@ -49,43 +52,43 @@ header nav a i {
 }
 header nav a i::before{
 	font-weight: 600;
-	font-size: 1.6rem;
+	font-size: 2.56rem;
 }
 header nav a span {
 	display: block;
 	text-align: center;
-	font-size: 1.4rem;
-	line-height: 2rem;
+	font-size: 2.24rem;
+	line-height: 3.2rem;
 	letter-spacing: 1px;
 	font-family:'Lacquer', sans-serif;
 }
 .logo {
 	display: block;
-	width: 2.6rem;
-	height: 2.6rem;
+	width: 4.16rem;
+	height: 4.16rem;
 	border-radius: 50%;
 	overflow: hidden;
 	border:2px solid #fff;
 }
 .logo img {
-	width: 2.6rem;
-	height: 2.6rem;
+	width: 4.16rem;
+	height: 4.16rem;
 }
 footer {
 	background: #707070;
-	height: 2.6rem;
+	height: 4.16rem;
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	text-align: right;
-	padding: 0 2rem;
+	padding: 0 3.2rem;
 }
 footer a {
 	text-decoration: none;
 	color: #fff;
-	font-size: 1rem;
-	line-height: 2.6rem;
+	font-size: 1.6rem;
+	line-height: 4.16rem;
 	/*font-family:'Lacquer';*/
 	letter-spacing: 1px;
 }
@@ -93,5 +96,15 @@ footer a:hover{
 	color: #00A693;
 }
 main{
-	margin-top: 3.5rem;
+	margin-top: 5.6rem;
+	position: relative;
+}
+.contacts {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 32rem;
+	background: #fff;
+	display: none;	
 }
