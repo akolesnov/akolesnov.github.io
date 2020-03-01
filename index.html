@@ -15,7 +15,7 @@
 <body>
 	<header>
 		<a href="./index.html" class="logo"><img src="./img/gaskoin.jpg" alt=""></a>
-		<nav>
+		<nav id="myLinks">
 			<a href="./index.html" class="active">
 				<div class="nav-item-icon"><i class="pe-7s-user"></i></div>
 				<span>PROFILE</span>
@@ -32,7 +32,12 @@
 				<div class="nav-item-icon"><i class="pe-7s-note2"></i></div>
 				<span>RESUME</span>
 			</a>		
-		</nav>	
+		</nav>
+		<a href="#" class="icon container" onclick="myFunction(this)">
+    	<div class="bar1"></div>
+    	<div class="bar2"></div>
+    	<div class="bar3"></div>
+  	</a>	
 	</header>
 	<main>
 		<div class="user">
@@ -41,7 +46,7 @@
 			</div>
 			<div class="user-info">
 				<h3>Александр Колеснов</h3>
-				<strong>Начинающий Web-Разработчик</strong>
+				<strong>Web-Разработчик</strong>
 				<p>
 					Привет, меня зовут Александр. Я начинающий Web-Разработчик из Пензы. Если вам нужно что-то сделать, просто свяжитесь со мной (:
 				</p>
@@ -49,7 +54,7 @@
 					<div>
 						<i class="pe-7s-mail-open"></i>
 					</div>
-					НАПИСАТЬ
+					СВЯЗАТЬСЯ СО МНОЙ
 				</button>
 			</div>	
 		</div>
@@ -60,5 +65,6 @@
 	<footer>
 		<a href="#">CONTACT</a>
 	</footer>
+	<script src="./script.js"></script>
 </body>
 </html>
