@@ -189,9 +189,9 @@ main{
 	main .work-container .work-item	{
 		line-height: 35rem;
 	}
-	main .contact-wrap {
-		/*text-align: center;*/
-		/*padding: 4.8rem 5rem;*/
+	main .contact-wrap ul {
+		margin: 3rem 0;
+		padding: 0;
 	}
 	main .contact-wrap .contact-item {
 		flex-direction: column;
@@ -201,7 +201,8 @@ main{
 		margin: 0 auto;
 	}
 	main .contact-wrap .contact-item p {
-		margin: 0;
+		margin: 0.5rem 0;
+
 	}	
 }
 @media screen and (min-width: 691px) {
@@ -218,6 +219,9 @@ main{
 	html {
 		font-size: 82.5%;
 	}	
+	main .user .user-info{
+		padding: 3.2rem 16rem 3.2rem 1.6rem;
+	}
 }
 @media screen and (min-width: 1448px){
 	html {
