@@ -1,0 +1,37 @@
+.contact-wrap {
+	color:#fff;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 4.8rem;
+}
+.contact-wrap h3 {
+	font-size: 4rem;
+	color: #00A693;
+	margin: 0.8rem 0;
+	letter-spacing: 2px;
+}
+.contact-wrap ul {
+	margin: 2rem auto ;
+}
+.contact-item {
+	display: flex;
+	justify-content: center;
+}
+.contact-item a {
+	display: block;
+	width: 8rem;
+	height: 8rem;
+	overflow: hidden;
+}
+.two {
+	margin-left: 2rem;
+}
+.contact-item a img {
+	width: 8rem;
+	height: 8rem;
+}
+.contact-item p {
+	font-size: 3rem;
+	display: block;
+	margin-left: 2rem;
+}

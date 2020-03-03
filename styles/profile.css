@@ -38,10 +38,12 @@ main{
 	margin: 4rem 0;
 	line-height: 2.9rem;
 }
-.user-info button {
-	display: flex;
+.user-info a {
+	display: inline-block;
 	background: #00A693;
 	color: #fff;
+	text-align: center;
+	text-decoration: none;
 	border-style: none;
 	margin: 0 auto;
 	padding: 0.8rem 2.4rem;
@@ -51,7 +53,7 @@ main{
 	letter-spacing: 1px;
 	outline: none;
 }
-.user-info button:hover {
+.user-info a:hover {
 	color:#707070;
 	cursor: pointer;
 }

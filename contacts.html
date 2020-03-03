@@ -4,17 +4,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<meta name="theme-color" content="#00A693" />
-	<title>Resume</title>
+	<title>Contacts</title>
 	<link rel="stylesheet" href="./styles/style.css">
 	<link rel="stylesheet" href="./pe-icon-7-stroke/css/pe-icon-7-stroke.css"> 
 	<link rel="stylesheet" href="./pe-icon-7-stroke/css/helper.css">
-	<link rel="stylesheet" href="./styles/resume.css">
+	<link rel="stylesheet" href="./styles/contacts.css">
 	<link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<a href="./index.html" class="logo"><img src="./img/gaskoin.jpg" alt=""></a>
+		<a href="./index.html" class="logo"><img src="./img/no-photo.png" alt="user icon"></a>
 		<nav id="myLinks">
 			<a href="./index.html">
 				<div class="nav-item-icon"><i class="pe-7s-user"></i></div>
@@ -28,9 +28,9 @@
 				<div class="nav-item-icon"><i class="pe-7s-portfolio"></i></div>
 				<span>WORKS</span>
 			</a>
-			<a href="./resume.html" class="active">
+			<a href="./contacts.html" class="active">
 				<div class="nav-item-icon"><i class="pe-7s-note2"></i></div>
-				<span>RESUME</span>
+				<span>CONTACTS</span>
 			</a>		
 		</nav>
 		<a href="#" class="icon container" onclick="myFunction(this)">
@@ -39,22 +39,37 @@
     	<div class="bar3"></div>
   	</a>	
 	</header>
-	<main class="resume-container">
-		<div class="resume-wrap">	
-			<h3>Мое резюме</h3>
-			<p>
-				Вы можете скачать мое резюме чтобы окончательно убедиться в том, что я ничего не умею и вы потратили время в 	пустую, зайдя на этот горе сайтишка (:
-			</p>
-			<button onclick="myFunc()">
-				<div>
-					<i class="pe-7s-download"></i>
-				</div>
-					СКАЧАТЬ
-			</button>
+	<main >
+		<div class="contact-wrap">	
+			<h3>Мои контакты</h3>
+			<ul >
+				<li class="contact-item">
+					<a href="mailto:baraquda2012@yandex.ru">
+						<img src="./img/elektron-pochta.png" alt="email icon">
+					</a>
+					<p>email :</p>
+					<p>baraquda2012@yandex.ru</p>
+				</li>
+				<li class="contact-item">
+					<a href="whatsapp://send?phone=+79272865060" class="two">
+						<img src="./img/whatsapp.png" alt="whatsapp icon">
+					</a>
+					<p>whatsapp :</p>
+					<p>+79991106075</p>
+				</li>
+				<li class="contact-item">
+					<a href="tg://resolve?domain=akolesnov">
+						<img src="./img/telegram.png" alt="telegram icon">
+					</a>
+					<p>telegram :</p>
+					<p>@akolesnov</p>
+				</li>
+			</ul>
+			
 		</div>	
 	</main>
 	<footer>
-		<a href="#" onclick="myFunc()">CONTACT</a>
+		<a href="./contacts.html">CONTACT</a>
 	</footer>
 	<script src="./script.js"></script>
 </body>
