@@ -17,13 +17,13 @@
 	display: flex;
 	justify-content: center;
 }
-.contact-item a {
+.contact-item .img-wrap {
 	display: block;
 	width: 8rem;
 	height: 8rem;
 	overflow: hidden;
 }
-.contact-item a img {
+.contact-item .img-wrap img {
 	width: 8rem;
 	height: 8rem;
 }
@@ -31,4 +31,15 @@
 	font-size: 3rem;
 	display: block;
 	margin-left: 2rem;
+}
+.contact-info {
+	line-height: 10rem;
+	text-decoration: none;
+	color: #fff;
+	font-size: 3rem;
+	display: block;
+	margin-left: 2rem;	
+}
+.contact-info:hover {
+	color: #00A693;
 }

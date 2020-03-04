@@ -197,12 +197,15 @@ main{
 		flex-direction: column;
 		margin-bottom: 2rem;
 	}
-	main .contact-wrap .contact-item a {
+	main .contact-wrap .contact-item .img-wrap {
 		margin: 0 auto;
 	}
 	main .contact-wrap .contact-item p {
 		margin: 0.5rem 0;
-
+	}
+	main .contact-wrap .contact-item .contact-info {
+		margin: 0.5rem 0;
+		line-height: 3rem;	
 	}	
 }
 @media screen and (min-width: 691px) {
