@@ -21,6 +21,10 @@ header {
 }
 .burger-menu {
 	margin: 32px 0;
+	width: 36px;
+}
+.burger-menu img {
+	width: 100%;
 }
 .logo {
 	display: -webkit-flex;
@@ -52,7 +56,11 @@ header {
 	letter-spacing: 7.75px;	
 }
 .filter {
+	width: 36px;
 	margin: 32px 0;
+}
+.filter img {
+	width: 100%;
 }
 main {
 	padding: 40px;
@@ -151,10 +159,137 @@ display: -o-flex;
 display: flex;
 }
 .event-stat__icon {
-	
+	height: 32px;	
+}
+.event-stat__icon img {
+	height: 100%;	
 }
 .event-stat__text {
 	margin-left: 12px;
 	color: #010101;
 	font-size: 22px;
+}
+.load {
+	font-size: 28px;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	main {
+		padding: 30px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	main {
+		padding: 20px;
+	}
+	.burger-menu {
+		width: 30px;
+	}
+	.logo__img {
+		grid-template-columns: 16px 16px 16px;
+		grid-template-rows: 14px 14px 14px;
+	}
+	.logo__text {
+		letter-spacing: 3.75px;
+		font-size: 28px;
+	}
+	.filter {
+		width: 30px;
+	}
+	.date {
+		height: 60px;
+
+	}
+	.date__text {
+		font-size: 24px;
+		line-height: 60px;
+	}
+	.date__icon {
+		height: 60px;
+		width: 60px;
+	}
+	.event__name {
+		font-size: 30px;
+		padding: 20px;
+	}
+
+	.event__place {
+		font-size: 24px;
+		padding-bottom: 22px;
+	}
+	.event__descr {
+		font-size: 18px;
+		padding: 20px 25px;
+	}
+	.event-statistic {
+	 
+	 height: 80px;
+	 padding: 24px;
+	}
+	.event-stat__icon {
+		height: 28px;	
+	}
+
+	.event-stat__text {
+		margin-left: 8px;
+		font-size: 18px;
+	}
+	.load {
+		font-size: 26px;
+	}
+
+}
+@media screen and (max-width: 420px) {
+	header {
+		height: 80px;
+	}
+	main {
+		padding: 10px;
+	}
+	.logo__img {
+		grid-template-columns: 14px 14px 14px;
+		grid-template-rows: 12px 12px 12px;
+	}
+	.logo__text {
+		font-size: 22px;
+		letter-spacing: 3.75px;
+		line-height: 80px;
+	}
+	.date__text {
+		font-size: 20px;
+		line-height: 60px;
+	}
+	.date__icon {
+		height: 60px;
+		width: 60px;
+	}
+	.event__name {
+	font-size: 26px;
+	padding: 15px;
+	}
+	.event__place {
+		font-size: 20px;
+		padding-bottom: 17px;
+	}
+	.event__descr {
+		font-size: 18px;
+		padding: 20px 15px;
+	}
+	.event-statistic {
+	 
+	 height: 60px;
+	 padding: 20px;
+	}
+	.event-stat__icon {
+		height: 25px;	
+	}
+
+	.event-stat__text {
+		font-size: 14px;
+	}
+	.load {
+		font-size: 22px;
+	}			
 }
