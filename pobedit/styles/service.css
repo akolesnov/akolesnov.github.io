@@ -1,5 +1,5 @@
 header {
-	height: 420px;
+	min-height: 420px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -48,4 +48,9 @@ header {
 	font-style: normal;
 	font-weight: 500;
 	padding: 5px 0;
+}
+.services > ul > li > span {
+	font-size: 50px;
+	font-family: cursive;
+	font-weight: 300;
 }

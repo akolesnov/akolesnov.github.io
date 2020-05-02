@@ -8,6 +8,7 @@
 		<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="./styles/common.css">
 		<link rel="stylesheet" href="./styles/category.css">
+		<link rel="stylesheet" href="./styles/index.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
 		<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
@@ -18,224 +19,263 @@
 		</script>
 	</head>
 	<body>
-		<section class="search" id="search-b">
-			<div class="container">
-				<form action="#">
-					<button type="submit" class="input-submit" id="submit">
-						<i class="fa fa-search"></i>
-					</button>
-					<input class="input-search" id="search" type="search" placeholder="поиск" />
-					<button class="input-submit" id="close" onclick="myFunction(this)">
-						<i class="fa fa-close"></i>
-					</button>
-				</form>
-			</div>
-		</section>
-		<section class="top-header">
-			<div class="container">
-				<nav>
-					<ul class="toplist">
-						<li><a href="./contacts.html" class="br">Связаться с нами</a></li>
-						<!-- <li><a href="" class="br">Обратный звонок</a></li> -->
-						<li><a href="tel:+7 841 252-87-53" class="br">+7 841 252-87-53</a></li>
-						<li><a href="tel:+7 841 252-87-51">+7 841 252-87-51</a></li>
-						<li>
-							<a href="https://www.instagram.com/skbpobedit/">
-								<i class="fa fa-instagram"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.facebook.com/skbpobedit?refsrc=https%3A%2F%2Fmobile.facebook.com%2Fskbpobedit">
-								<i class="fa fa-facebook-f"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/company/pobedit">
-								<i class="fa fa-linkedin"></i>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</section>
-		<section class="mid-header">
-			<div class="container">
-				<div class="bottom-container" >
-					<div class="burger-menu" id="burger" onclick="burger(this)"></div>
-					<a href="./index.html" class="logo"><img src="./img/logo2.png" alt=""/></a>
-					<nav>
-						<ul class="topmenu" id="topmenu">
-							<li><a href="./index.html">Главная</a></li>
-							<li><a href="./category.html">Товары</a>
-								<ul class="submenu">
-									<li><a href="./catalog/moika.html">МОЙКА И ОЧИСТКА</a>
+		<header>
+			<div class="topline">
+				<section class="search" id="search-b">
+					<div class="container">
+						<form action="#">
+							<button type="submit" class="input-submit" id="submit">
+								<i class="fa fa-search"></i>
+							</button>
+							<input class="input-search" id="search" type="search" placeholder="поиск" />
+							<button class="input-submit" id="close" onclick="myFunction(this)">
+								<i class="fa fa-close"></i>
+							</button>
+						</form>
+					</div>
+				</section>
+				<section class="top-header">
+					<div class="container">
+						<nav>
+							<ul class="toplist">
+								<li><a href="./contacts.html" class="br">Связаться с нами</a></li>
+								<!-- <li><a href="" class="br">Обратный звонок</a></li> -->
+								<li><a href="tel:+7 841 252-87-53" class="br">+7 841 252-87-53</a></li>
+								<li><a href="tel:+7 841 252-87-51">+7 841 252-87-51</a></li>
+								<li>
+									<a href="https://www.instagram.com/skbpobedit/">
+										<i class="fa fa-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.facebook.com/skbpobedit?refsrc=https%3A%2F%2Fmobile.facebook.com%2Fskbpobedit">
+										<i class="fa fa-facebook-f"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/company/pobedit">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</section>
+				<section class="mid-header">
+					<div class="container">
+						<div class="bottom-container" >
+							<div class="burger-menu" id="burger" onclick="burger(this)"></div>
+							<a href="./index.html" class="logo"><img src="./img/logo2.png" alt=""/></a>
+							<nav>
+								<ul class="topmenu" id="topmenu">
+									<li><a href="./index.html">Главная</a></li>
+									<li><a href="./category.html">Товары</a>
 										<ul class="submenu">
+											<li><a href="./catalog/moika.html">МОЙКА И ОЧИСТКА</a>
+												<ul class="submenu">
+													<li>
+														<a href="./catalog/moika-ochistka/pobedit-mo.html">
+															УСТАНОВКА ДЛЯ<br>МОЙКИ И ОЧИСТКИ<br>ПОБЕДИТ-МО
+														</a>
+													</li>
+												</ul>
+											</li>
 											<li>
-												<a href="./catalog/moika-ochistka/pobedit-mo.html">
-													УСТАНОВКА ДЛЯ<br>МОЙКИ И ОЧИСТКИ<br>ПОБЕДИТ-МО
-												</a>
+												<a href="./catalog/razbor-sbor.html">РАЗБОРКА И СБОРКА</a>
+												<ul class="submenu">
+													<li>
+														<a href="./catalog/razborka-sborka/pobedit-rm-1.html">
+															РАБОЧЕЕ МЕСТО ПОБЕДИТ-РМ-1
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/razborka-sborka/pobedit-rm-2.html">
+															РАБОЧЕЕ МЕСТО ПОБЕДИТ-РМ-2
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/razborka-sborka/pobedit-rm-ppk.html">
+															РАБОЧЕЕ МЕСТО ПОБЕДИТ-РМ-ППК
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/razborka-sborka/pobedit-rm-afk.html">
+															РАБОЧЕЕ МЕСТО ПОБЕДИТ-РМ-АФК
+														</a>
+													</li>
+												</ul>
+											</li>	
+											<li><a href="./catalog/meh-obrabotka.html">МЕХАНИЧЕСКАЯ ОБРАБОТКА</a>
+												<ul class="submenu">
+													<li>
+														<a href="./catalog/meh-obrabotka/pobedit-svp-1.html">
+															СТАНОК ДЛЯ ВЫРЕЗКИ<br>ПРОКЛАДОК<br>ПОБЕДИТ-СВП-1
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/meh-obrabotka/pobedit-svp-2.html">
+															СТАНОК ДЛЯ ВЫРЕЗКИ<br>ПРОКЛАДОК<br>ПОБЕДИТ-СВП-2
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/meh-obrabotka/pobedit-sr.html">
+															РАСТОЧНОЙ СТАНОК ПОБЕДИТ-СР
+														</a>
+													</li>
+												</ul>
+											</li>
+											<li><a href="./catalog/schlif-pritirka.html">ШЛИФОВКА И ПРИТИРКА</a>
+												<ul class="submenu">
+													<li>
+														<a href="./catalog/shlifovka-pritirka/pobedit-spm-1.html">
+															СТАНОК ПЕРЕНОСНОЙ<br>ДЛЯ ШЛИФОВАНИЯ<br>И ПРИТИРКИ<br>ПОБЕДИТ-СПМ-1
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/shlifovka-pritirka/pobedit-spm-2-v.html">
+															СТАНОК ПЕРЕНОСНОЙ ДЛЯ РЕМОНТА ЗАПОРНЫХ ВЕНТИЛЕЙ ПОБЕДИТ-СПМ-2-В
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/shlifovka-pritirka/pobedit-spm-2-k.html">
+															СТАНОК ПЕРЕНОСНОЙ ДЛЯ РЕМОНТА ЗАПОРНЫХ КЛАПАНОВ ПОБЕДИТ-СПМ-2-К
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/shlifovka-pritirka/pobedit-spd.html">
+															СТАНОК ДЛЯ ПРИТИРКИ ПОБЕДИТ-СПД
+														</a>
+													</li>
+												</ul>
+											</li>
+											<li><a href="./catalog/ispyt-oborud.html">ИСПЫТАТЕЛЬНОЕ ОБОРУДОВАНИЕ</a>
+												<ul class="submenu">
+													<li>
+														<a href="./catalog/isp-oborudovanie/pobedit-s-1.html">
+															СТЕНДЫ ДЛЯ ДЛЯ ИСПЫТАНИЙ И НАСТРОЙКИ ППК ПОБЕДИТ-С-1
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/isp-oborudovanie/pobedit-s-2.html">
+															ВЕРТИКАЛЬНЫЕ СТЕНДЫ ПОБЕДИТ-С-2
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/isp-oborudovanie/pobedit-s-3.html">
+															ГОРИЗОНТАЛЬНЫЕ СТЕНДЫ ПОБЕДИТ-С-3
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/isp-oborudovanie/pobedit-s-1-425.html">
+															СТЕНДЫ ДЛЯ ИСПЫТАНИЙ ПВО ПОБЕДИТ-С-1-425
+														</a>
+													</li>
+												</ul>
+											</li>
+											<li><a href="./catalog/istoch-davlen.html">ИСТОЧНИКИ ДАВЛЕНИЯ</a>
+												<ul class="submenu">
+													<li>
+														<a href="./catalog/istochniki-davleniya/pobedit-spg.html">
+															СТАНЦИИ ПНЕВМОГИДРАВЛИЧЕСКИЕ ПОБЕДИТ-СПГ
+														</a>
+													</li>
+												</ul>
+											</li>
+											<li><a href="./catalog/vspom-oborud.html">ВСПОМОГАТЕЛЬНОЕ ОБОРУДОВАНИЕ</a>
+												<ul class="submenu">
+													<li>
+														<a href="./catalog/vspom-oborudovanie/pobedit-ks.html">
+															УСТАНОВКА КОМПРЕССОРНАЯ ПОБЕДИТ-КС
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/vspom-oborudovanie/pobedit-uov.html">
+															УСТАНОВКА ОБОРОТНОГО ВОДОСНАБЖЕНИЯ ПОБЕДИТ-УОВ
+														</a>
+													</li>
+													<li>
+														<a href="./catalog/vspom-oborudovanie/pobedit-bo.html">
+															БРОНЕОГРАЖДЕНИЕ ПОБЕДИТ-БО
+														</a>
+													</li>
+												</ul>
+											</li>
+											<li><a href="./catalog/peredvij-master.html">ПЕРЕДВИЖНЫЕ МАСТЕРСКИЕ</a>
+												<ul class="submenu">
+													<li>
+														<a href="./catalog/peredvijnye-masterskie/pobedit-pm.html">
+															МОБИЛЬНАЯ<br>МАСТЕРСКАЯ<br>ПОБЕДИТ-ПМ
+														</a>
+													</li>
+												</ul>
 											</li>
 										</ul>
 									</li>
-									<li>
-										<a href="./catalog/razbor-sbor.html">РАЗБОРКА И СБОРКА</a>
-										<ul class="submenu">
-											<li>
-												<a href="./catalog/razborka-sborka/pobedit-rm-1.html">
-													РАБОЧЕЕ МЕСТО ПОБЕДИТ-РМ-1
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/razborka-sborka/pobedit-rm-2.html">
-													РАБОЧЕЕ МЕСТО ПОБЕДИТ-РМ-2
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/razborka-sborka/pobedit-rm-ppk.html">
-													РАБОЧЕЕ МЕСТО ПОБЕДИТ-РМ-ППК
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/razborka-sborka/pobedit-rm-afk.html">
-													РАБОЧЕЕ МЕСТО ПОБЕДИТ-РМ-АФК
-												</a>
-											</li>
-										</ul>
-									</li>	
-									<li><a href="./catalog/meh-obrabotka.html">МЕХАНИЧЕСКАЯ ОБРАБОТКА</a>
-										<ul class="submenu">
-											<li>
-												<a href="./catalog/meh-obrabotka/pobedit-svp-1.html">
-													СТАНОК ДЛЯ ВЫРЕЗКИ<br>ПРОКЛАДОК<br>ПОБЕДИТ-СВП-1
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/meh-obrabotka/pobedit-svp-2.html">
-													СТАНОК ДЛЯ ВЫРЕЗКИ<br>ПРОКЛАДОК<br>ПОБЕДИТ-СВП-2
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/meh-obrabotka/pobedit-sr.html">
-													РАСТОЧНОЙ СТАНОК ПОБЕДИТ-СР
-												</a>
-											</li>
-										</ul>
-									</li>
-									<li><a href="./catalog/schlif-pritirka.html">ШЛИФОВКА И ПРИТИРКА</a>
-										<ul class="submenu">
-											<li>
-												<a href="./catalog/shlifovka-pritirka/pobedit-spm-1.html">
-													СТАНОК ПЕРЕНОСНОЙ<br>ДЛЯ ШЛИФОВАНИЯ<br>И ПРИТИРКИ<br>ПОБЕДИТ-СПМ-1
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/shlifovka-pritirka/pobedit-spm-2-v.html">
-													СТАНОК ПЕРЕНОСНОЙ ДЛЯ РЕМОНТА ЗАПОРНЫХ ВЕНТИЛЕЙ ПОБЕДИТ-СПМ-2-В
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/shlifovka-pritirka/pobedit-spm-2-k.html">
-													СТАНОК ПЕРЕНОСНОЙ ДЛЯ РЕМОНТА ЗАПОРНЫХ КЛАПАНОВ ПОБЕДИТ-СПМ-2-К
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/shlifovka-pritirka/pobedit-spd.html">
-													СТАНОК ДЛЯ ПРИТИРКИ ПОБЕДИТ-СПД
-												</a>
-											</li>
-										</ul>
-									</li>
-									<li><a href="./catalog/ispyt-oborud.html">ИСПЫТАТЕЛЬНОЕ ОБОРУДОВАНИЕ</a>
-										<ul class="submenu">
-											<li>
-												<a href="./catalog/isp-oborudovanie/pobedit-s-1.html">
-													СТЕНДЫ ДЛЯ ДЛЯ ИСПЫТАНИЙ И НАСТРОЙКИ ППК ПОБЕДИТ-С-1
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/isp-oborudovanie/pobedit-s-2.html">
-													ВЕРТИКАЛЬНЫЕ СТЕНДЫ ПОБЕДИТ-С-2
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/isp-oborudovanie/pobedit-s-3.html">
-													ГОРИЗОНТАЛЬНЫЕ СТЕНДЫ ПОБЕДИТ-С-3
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/isp-oborudovanie/pobedit-s-1-425.html">
-													СТЕНДЫ ДЛЯ ИСПЫТАНИЙ ПВО ПОБЕДИТ-С-1-425
-												</a>
-											</li>
-										</ul>
-									</li>
-									<li><a href="./catalog/istoch-davlen.html">ИСТОЧНИКИ ДАВЛЕНИЯ</a>
-										<ul class="submenu">
-											<li>
-												<a href="./catalog/istochniki-davleniya/pobedit-spg.html">
-													СТАНЦИИ ПНЕВМОГИДРАВЛИЧЕСКИЕ ПОБЕДИТ-СПГ
-												</a>
-											</li>
-										</ul>
-									</li>
-									<li><a href="./catalog/vspom-oborud.html">ВСПОМОГАТЕЛЬНОЕ ОБОРУДОВАНИЕ</a>
-										<ul class="submenu">
-											<li>
-												<a href="./catalog/vspom-oborudovanie/pobedit-ks.html">
-													УСТАНОВКА КОМПРЕССОРНАЯ ПОБЕДИТ-КС
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/vspom-oborudovanie/pobedit-uov.html">
-													УСТАНОВКА ОБОРОТНОГО ВОДОСНАБЖЕНИЯ ПОБЕДИТ-УОВ
-												</a>
-											</li>
-											<li>
-												<a href="./catalog/vspom-oborudovanie/pobedit-bo.html">
-													БРОНЕОГРАЖДЕНИЕ ПОБЕДИТ-БО
-												</a>
-											</li>
-										</ul>
-									</li>
-									<li><a href="./catalog/peredvij-master.html">ПЕРЕДВИЖНЫЕ МАСТЕРСКИЕ</a>
-										<ul class="submenu">
-											<li>
-												<a href="./catalog/peredvijnye-masterskie/pobedit-pm.html">
-													МОБИЛЬНАЯ<br>МАСТЕРСКАЯ<br>ПОБЕДИТ-ПМ
-												</a>
-											</li>
-										</ul>
-									</li>
+									<li><a href="./service.html">Услуги</a></li>
+									<li><a href="./news.html">Новости</a></li>
+									<li><a href="./about.html">О компании</a></li>
+									<li><a href="./contacts.html">Контакты</a></li>
+									<li><a href="#" onclick="myFunction(this)"><i class="fa fa-search"></i></a></li>
 								</ul>
-							</li>
-							<li><a href="./service.html">Услуги</a></li>
-							<li><a href="./news.html">Новости</a></li>
-							<li><a href="./about.html">О компании</a></li>
-							<li><a href="./contacts.html">Контакты</a></li>
-							<li><a href="#" onclick="myFunction(this)"><i class="fa fa-search"></i></a></li>
-						</ul>
-					</nav>
+							</nav>
+						</div>
+					</div>	
+				</section>
+			</div>
+			<div class="slideshow-container">
+				<div class="mySlides fade sl1" 
+					 style="background-image: url('./img/slide/slide1.jpg');">
+					<div class="other">
+						<h2 class="other__title">Компактность и функциональность</h2>
+						<p class="other__description">
+							комплектация необходимого оборудования для работы в полевых условиях
+						</p>
+						<a href="./news.html" class="other__a" id="butNews">УЗНАТЬ БОЛЬШЕ</a>
+					</div>
 				</div>
-			</div>	
-		</section>
-		<div class="other"><a href="./news.html" class="other__a" id="butNews">УЗНАТЬ БОЛЬШЕ</a></div>
-		<div class="slideshow-container">
-			<div class="mySlides fade sl1" 
-				 style="background-image: url('./img/slide/slide1.jpg');">
+				<div class="mySlides fade sl2"
+					style="background-image: url('./img/slide/slide2.jpg');">
+					<div class="other">
+						<h2 class="other__title">Оптимизация процессов <br>ремонта</h2>
+						<p class="other__description">
+							Исключение простоя, экономия  времени и трудовых сил
+						</p>
+						<a href="./news.html" class="other__a" id="butNews">УЗНАТЬ БОЛЬШЕ</a>
+					</div>
+				</div>
+				
+				<div class="mySlides fade sl3"
+					 style="background-image: url('./img/slide/slide4.jpg');">
+					<div class="other">
+						<h2 class="other__title">Проверка работоспособности арматуры</h2>
+						<p class="other__description">
+							Инструменты контроля и испытания для бесперебойной работы и безопасности
+						</p>
+						<a href="./news.html" class="other__a" id="butNews">УЗНАТЬ БОЛЬШЕ</a>
+					</div>
+				</div>
+				<div class="mySlides fade sl3"
+					 style="background-image: url('./img/slide/slide3.jpg');">
+					<div class="other">
+						<h2 class="other__title">Узнать <br>больше <br>о нас</h2>
+						<p class="other__description">
+							Информация о компании, проектах и деятельности
+						</p>
+						<a href="./news.html" class="other__a" id="butNews">УЗНАТЬ БОЛЬШЕ</a>
+					</div>
+				</div>
+				<div class="mySlides fade sl1" 
+					 style="background-image: url('./img/slide/slide6.jpg');">
+					<div class="other">
+						<h2 class="other__title">Разработка по индивидуальному заказу</h2>
+						<p class="other__description">
+							Реализация задач в соответствии с вашими требованиями
+						</p>
+						<a href="./news.html" class="other__a" id="butNews">УЗНАТЬ БОЛЬШЕ</a>
+					</div>
+				</div>
 			</div>
-			<div class="mySlides fade sl2"
-				style="background-image: url('./img/slide/slide2.jpg');">
-			</div>
-			<div class="mySlides fade sl3"
-				 style="background-image: url('./img/slide/slide3.jpg');">
-			</div>
-			<div class="mySlides fade sl3"
-				 style="background-image: url('./img/slide/slide4.jpg');">
-			</div>
-			<div class="mySlides fade sl3"
-				 style="background-image: url('./img/slide/slide5.jpg');">
-			</div>
-		</div>
+		</header>
 		<section class="catalog" id="catalog">
 			<h3>Оборудование для ремонта и испытаний трубопроводной арматуры</h3>
 			<div class="catalog-wrap">
@@ -488,11 +528,10 @@
 				</div>
 			</div>
 		</footer>
-		
+		<script src="./js/script.js"></script>
 		<script src="./js/slide.js"></script>
 		<script src="./js/search.js"></script>
 		<script src="./js/carousel.js"></script>
-		
 		<script src="./owlcarousel/owl.carousel.min.js"></script>
 	</body>
 </html>
