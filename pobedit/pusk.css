@@ -1,0 +1,125 @@
+@font-face {
+	font-family: '16884';
+	src: url(./fonts/16884.ttf);
+	src: url(./fonts/16884.woff);
+	src: local(16884), url(./fonts/16884.ttf);
+	src: local(16884), url(./fonts/16884.woff);
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: '16884';
+	height: 100%;
+	background: #535a53;
+}
+header {
+	background: #535a53;
+	text-align: center;
+	padding: 30px 15px 10px 15px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+header h1 {
+	font-size: 30px;
+	font-weight: 300;
+	color: yellow;
+	letter-spacing: 1px;
+	/* border: 3px solid yellow; */
+  	/* max-width: 500px; */
+	border-radius: 30px;
+	margin: 0 auto;
+}
+main{
+	background-image: url('./team.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+	padding: 60px 50px;
+}
+.content{
+	padding: 0 15px;
+	margin-top: 105px;
+	background: rgba(0,0,0,.4);
+	text-align: center;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 40rem;
+}
+.content h3 {
+	font-size: 50px;
+	color: yellow;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+.content p{
+	color: #ffffff;
+	font-size: 18px;
+}
+footer {
+	background: #535a53;
+	text-align: center;
+	color: #ffffff;
+	padding: 1rem 0; 
+}
+.mail-button {
+	display: inline-block;
+	text-decoration: none;
+	background: yellow;
+	color: #535a53;
+	font-size: 20px;
+	border-radius: 30px;
+	padding: 10px 20px;  
+  	margin: 1rem auto 2rem auto;
+}
+/*.mail-button:hover{
+	background: #ffffff;
+	color: #535a53;
+}*/
+footer p{
+	margin: 2rem auto 0 auto;	
+}
+
+@media screen and (max-width:520px){
+	header {
+		padding: 10px 15px;
+	}
+	header h1{
+		font-size: 25px;
+		/* max-width: 355px; */
+	}
+	main{
+		padding: 0;
+	}
+	.content{
+		height: 30rem;
+		width: 100%;
+	}
+}
+@media screen and (max-width:390px){
+	header h1{
+		font-size: 20px;
+		/* max-width: 270px; */
+	}
+	main{
+		padding: 0;
+	}
+	.content{
+		height: 30rem;
+		width: 100%;
+	}
+	.content h3 {
+		font-size: 35px;
+	}
+	footer h1{
+		font-size: 30px;
+		max-width: 270px;
+	}
+}

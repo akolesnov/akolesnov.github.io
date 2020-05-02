@@ -1,0 +1,39 @@
+@import url('./common.css');
+  /*#################  */
+.catalog h3 {
+    color: #000000;
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+    margin: 0 0 2rem 0;
+  }
+  .catalog-wrap {
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 10% 10% 10%;
+    grid-gap: 3rem;
+    justify-content: center;
+    margin: 3rem 0;
+  }
+  .catalog-card {
+    /* border: 2px solid #a2a2a2; */
+    text-align: center;
+
+  }
+  .catalog-card a {
+    color: #535a53;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .catalog-img-wrap {
+      height: 20vw;
+  }
+  .catalog-img-wrap img {
+      width: 100%;
+  }
+
+  li{
+    font-size: 1.1rem;
+  }
+  
+

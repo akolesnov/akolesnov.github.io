@@ -1,0 +1,81 @@
+@import url('./common.css');
+/* ##################### ########################################################*/
+.catalog {
+	margin-top: 37rem;
+}
+.catalog h3 {
+	color: #ffffff;
+	background: #313234;
+	font-size: 1.5rem;
+	padding: 1.5rem 0;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 1.5px;
+}
+.catalog-wrap {
+	display: grid;
+	-webkit-display: grid;
+	-moz-display: grid;
+	-ms-display: grid;
+	-o-display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 25vw 25vw;
+	justify-content: center;
+}
+.catalog-card {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: grayscale(100%);
+	/* border: 1px solid #535a53; */
+	border: 1px solid #313234;
+	position: relative;
+	overflow: hidden;
+}
+.catalog-card:hover {
+	filter: grayscale(0);
+}
+.catalog-card:hover .catalog-card__name {
+	/*left: 0;
+	right: 0;
+	bottom: 0;
+	background: transparent;
+	color: #000000;
+	padding: 0;
+	height: 25%;
+	text-shadow: 1px 1px white, 2px 2px white, -1px -1px white, -2px -2px white, -1px 1px white, 1px -1px white, -2px 2px white, 2px -2px white, -3px -3px 4px rgba(0,0,0,.3), -3px 3px 4px rgba(0,0,0,.3), 3px 3px 4px rgba(0,0,0,.3), 3px -3px 4px rgba(0,0,0,.3); 
+*/
+	display: none;
+}
+.catalog-card__name {
+	color: #ffffff;
+	font-size: 1.7rem;
+	background: rgba(0, 0, 0, .65);
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	padding-top: 45%;
+	transition: 0.5s;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 930px) {
+	.catalog h3 {
+		font-size: 1.2rem;
+	}
+	.catalog-wrap {
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 50vw 50vw 50vw 50vw;
+	}
+}
+@media screen and (max-width: 600px) {
+	.catalog-wrap {
+		grid-template-columns: 100% ;
+		grid-template-rows: 100vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw;
+	}
+}
