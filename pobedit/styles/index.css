@@ -95,14 +95,11 @@ header {
 	border-radius: 10px;
 	position: absolute;
 	bottom: 40px;
-	right: 22rem;
+	right: 22.5rem;
 	cursor: pointer;
 	/*z-index: 0 !important;*/
 }
 /*##########################*/
-/*.catalog {
-	margin-top: 33.9rem;
-}*/
 
 /*------index.css----------*/
 .about-line {
@@ -196,4 +193,77 @@ header {
 .info__data {
 	font-size: 15px;
 	color: #0b79bf;
+}
+
+/*---MEDIA-QUERIES--------------*/
+
+@media screen and (max-width: 1024px) {
+	.other {
+		height: 22rem;
+		width: 30rem;
+		padding: 40px;
+		padding-left: 70px;
+	}
+	.other::before {
+		right: -11rem;
+		border-top: 11rem solid transparent;
+		border-left: 11rem solid rgba(0, 0, 0, .5);;
+		border-bottom: 11rem solid transparent;
+	}
+	.other__title {
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 20px;
+	}
+	.other__description {
+		font-size: 18px;
+		line-height: 25px;
+		/*font-family: Poppins;*/
+		font-style: normal;
+		font-weight: 300;
+		padding-top: 0px;
+		padding-bottom: 25px;
+	}
+	.other__a {
+		right: 12.6rem;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.other {
+		width: 100%;
+		padding-left: 40px;
+	}
+	.other::before {
+		display: none;
+	}
+	.other__a {
+		right: calc(100% - 248px);
+	}
+	.mySlides {
+		/*background-size: inherit;*/
+}
+
+@media screen and (max-width: 425px) {
+	.about__title {
+		padding: 6px 47px;
+	}
+	.other {
+		width: 100%;
+		padding: 30px;
+	}
+	.other__a {
+		padding: 15px 10px;
+	}
+	.other__title {
+		font-size: 25px;
+		line-height: 35px;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.other__title {
+		font-size: 20px;
+		line-height: 30px;
+	}
 }

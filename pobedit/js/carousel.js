@@ -18,12 +18,9 @@ $(document).ready(function(){
 			1000:{
 				items:4
 			}
-		}	
+
+		},
+		loop: true
 	});
 });
 
-// if($(window).width() < 900 ){
-// 	$(".owl-carousel").owlCarousel({
-//   	items: 3
-//   });
-// }

@@ -209,7 +209,7 @@ footer{
 	display: flex;
 	justify-content: center;
 	margin: 0.5rem 0;
-	margin-right: 5rem;
+	/*margin-right: 5rem;*/
 }
 .social-icon{
 	width: 40px;
@@ -238,18 +238,16 @@ footer{
 /*----------media-queries--------------*/
 
 @media screen and (max-width: 1200px) {
-	.topmenu > li > a {  
+	.topmenu > li > a {
 		padding: 20px 10px;
 		font-size: 15px;
 	}
 	.logo img {
-		height: 2.5rem;   
+		height: 2.5rem;
 	}
 }
 
-@media screen and (max-width: 1024px) {
 
-}
 
 @media screen and (max-width: 930px) {
 	.bottom-container {
@@ -306,19 +304,7 @@ footer{
 	align-self: center;
 	}
 }
-@media screen and (max-width: 580px) {
-	.other {
-		width: 100%;
-	}
-	.other::before {
-		display: none;
-	}
-	.other__a {
-		right: calc(50% - 6.5rem);
-	}
-	.mySlides {
-		background-size: inherit;
-}
+
 @media screen and (max-width: 480px) {
 	.logo img {
 		height: 3.5rem;
@@ -337,21 +323,23 @@ footer{
 	.logo img {
 		height: 3rem;
 	}
-	.about__title {
-		padding: 6px 47px;
-	}
-	.contacts p {
+		.contacts p {
 		font-size: 15px;
 	}
-	.other__a {
-		padding: 15px 10px;
-	}
 }
+
 @media screen and (max-width: 370px) {
 	.logo img {
-		height: 2.5rem;
+		height: 2.7rem;
 	}
 	.contacts p {
 		font-size: 13px;
 	}
+}
+
+@media screen and (max-width: 330px) {
+	.logo img {
+		height: 2.5rem;
+	}
+	
 }

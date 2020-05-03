@@ -1,41 +1,5 @@
-.header {
-	min-height: 420px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-.header__title {
-	text-shadow: 1px 1px 2px rgba(0,0,0,.4);
-	font-size: 35px;
-	line-height: 40px;
-	font-weight: 700;
-	color: #ffffff;
-	padding-top: 115px;
-}
-.separator {
-	width: 65px;
-	height: 2px;
-	background: #0b79bf;
-	margin: 14px 0;
-}
-.links {
-	text-shadow: 1px 1px 2px rgba(0,0,0,.4);
-	color: #ffffff;
-	font-size: 13px;
-}
-.links a {
-	text-decoration: none;
-	font-style: normal;
-	font-weight: 600;
-	color: #ffffff;
-}
-.links a:hover {
-	color: #0b79bf;
-}
+@import './header.css';
 /*####################################*/
-/*.catalog {
-	margin-top: 37rem;
-}*/
 .catalog h3 {
 	color: #ffffff;
 	background: #313234;
