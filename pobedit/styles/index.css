@@ -141,13 +141,13 @@ header {
 	border-left: 1px solid grey;
 }
 .about__title {
-	min-height: 67px;
+	height: 67px;
 	font-size: 23px;
 	color: #ffffff;
 	background: #1780c2;
 	text-align: center;
-	padding: 20px 47px;
 	font-weight: 400;
+	line-height: 67px;
 }
 .info {
 /*	width: 20%;*/
@@ -245,9 +245,6 @@ header {
 }
 
 @media screen and (max-width: 425px) {
-	.about__title {
-		padding: 6px 47px;
-	}
 	.other {
 		width: 100%;
 		padding: 30px;
