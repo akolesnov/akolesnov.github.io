@@ -19,7 +19,7 @@
 
 	document.getElementById('submit').onclick  = function(){
 		let element = document.getElementById('search').value;
-		element = element.toLowerCase();
+		element = element.toUpperCase();
 		localStorage.setItem('value', element);
 		redirect();
 	};

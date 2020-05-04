@@ -117,12 +117,17 @@
 	}
 	.tabs__block {
 		padding: 30px 10px;
+		overflow: hidden;
 	}
 }
 
 @media screen and (max-width: 600px) {
 	.tabs__items {
 		flex-direction: column;
+	}
+	.tabs__link {
+		border-bottom: 1px solid #ffffff;
+		border-radius: 0;
 	}
 	.content-title {
 		font-size: 29px;

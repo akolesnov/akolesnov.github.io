@@ -66,3 +66,8 @@
 	color: #303030;
 	font-size: 15px;
 }
+@media screen and (max-width: 370px) {
+	.news-container {
+		padding: 30px 10px;
+	}
+}
