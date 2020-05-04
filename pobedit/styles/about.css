@@ -1,8 +1,15 @@
 @import './header.css';
 .about {
-	padding: 55px 10px;
-	max-width: 900px;
-	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 40px;
+}
+.about-info {
+	padding: 40px 120px 40px 60px;
+	/*max-width: 900px;*/
 }
 .about__text {
 	color: #383838;
@@ -10,4 +17,104 @@
 	line-height: 22px;
 	font-style: normal;
 	font-weight: 500;
+}
+.about-logo {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	height: 250px;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.about-logo__img {
+	height: 150px;
+	box-sizing: border-box;
+}
+.skb {
+	background: rgba(0, 0, 0, .8);
+	padding: 5px 15px;
+	height: 65px;
+	margin-right: 70px;
+}
+.about-logo__img img{
+	height: 100%;
+	/*object-fit: contain;*/
+}
+.razdel__btn {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #1780c2;
+	font-size: 14px;
+	display: inline-flex;
+	align-items: center;
+	height: 64px;
+	border-radius: 10px;
+}
+.razdel__btn-text {
+	padding: 0 35px;
+}
+.razdel__btn-icon {
+	padding: 0 14px;
+	font-size: 40px;
+}
+.about-img-block {
+	
+}
+.about__img {
+	width: 210px;
+	height: 210px;
+	overflow: hidden;
+}
+.about__img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.production__title {
+	color: #ffffff;
+	background: #313234;
+	font-size: 1.5rem;
+	padding: 1rem 0;
+	text-align: center;
+	letter-spacing: 1.5px;
+}
+
+.production-wrap {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.production {
+	text-align: center;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: grayscale(100%);
+	border: 1px solid #313234;
+	position: relative;
+	overflow: hidden;
+	width: 25%;
+	height: 25vw;
+}
+.production:hover {
+	filter: grayscale(0);
+}
+.production__name {
+	
+	background: rgba(0, 0, 0, .65);
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	transition: 0.5s;
+}
+.production:hover .production__name {
+	display: none;
 }

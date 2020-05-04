@@ -31,13 +31,11 @@
 	column-break-inside: avoid;
 	display: inline-block;
 	width: 100%;
-	/*border: 2px solid #ddd;*/
 }
 .service__img {
 	padding: 0 0 75% 0;
 	overflow: hidden;
 	position: relative;
-	/*border: 10px solid #ddd;*/
 }
 .service__img img {
 	width: 100%;
@@ -48,13 +46,16 @@
 	left: 0;
 }
 .service__text {
-	color: #303030;
-	font-size: 18px;
+/*	color: #303030;
+	font-size: 18px;*/
 	line-height: 22px;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 500;
 	letter-spacing: 0;
 	padding: 15px;
+
+	color: #383838;
+	font-size: 16px;
 }
 
 @media screen and (max-width: 500px) {
