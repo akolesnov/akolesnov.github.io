@@ -193,17 +193,8 @@ footer{
 .contacts > .logo > img {
 	height: 4.6rem;
 }
-.footer__bottom {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: space-between;
-}
 .footer__data {
 	font-size: 1rem;
-	align-self: flex-end;
 }
 .social{
 	display: flex;
@@ -226,14 +217,6 @@ footer{
 	font-size: 32px;
 	font-weight: bold;
 }
-.author {
-	display: block;
-	text-decoration: none;
-	color: #feca39;
-	font-size: 1rem;
-	align-self: flex-end;
-}
-
 
 /*----------media-queries--------------*/
 

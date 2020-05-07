@@ -38,3 +38,51 @@
 .contact-info>a:hover {
 	color: #0b79bf;
 }
+
+@media screen and (max-width: 900px) {
+	.contacts-container {
+		/*margin: 50px auto;*/
+		padding: 40px 40px;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.map {
+		width: 300px;
+		height: 300px;
+		overflow: hidden;
+	}
+}
+
+@media screen and (max-width: 730px) {
+	.map {
+		width: 400px;
+		height: 400px;
+	}
+	.contacts-container {
+		flex-direction: column;
+		align-items: center;
+		padding: 40px;
+	}
+	.contact-info {
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.contacts-container {
+		flex-direction: column;
+		align-items: center;
+		padding: 40px 20px;
+	}
+	.map {
+		width: 300px;
+		height: 300px;
+	}
+}
+@media screen and (max-width: 390px) {
+	.contact__title {
+		font-size: 26px;
+		line-height: 30px;
+	}
+}
