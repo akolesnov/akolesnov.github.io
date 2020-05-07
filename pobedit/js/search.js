@@ -14,7 +14,7 @@
 		if (window.location.href === 'search.html'){
 			location.reload()
 		}
-		else {window.location.href = 'search.html'}
+		else {window.location.href = './search.html'}
 	}
 
 	document.getElementById('submit').onclick  = function(){
