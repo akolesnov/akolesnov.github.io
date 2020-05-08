@@ -1,3 +1,6 @@
+
+/*----префиксы--------*/
+
 header {
 	min-height: 44rem;
 	position: relative;
@@ -11,7 +14,6 @@ header {
 /*--slider popular--*/
 .slideshow-container {
 	width: 100%;
-	/*z-index: -3;*/
 	position: absolute;
 	top: 0;
 	z-index: 0;
@@ -97,11 +99,9 @@ header {
 	bottom: 40px;
 	right: 22.5rem;
 	cursor: pointer;
-	/*z-index: 0 !important;*/
 }
 /*##########################*/
 
-/*------index.css----------*/
 .about-line {
 	position: relative;
 }
@@ -150,13 +150,11 @@ header {
 	line-height: 67px;
 }
 .info {
-/*	width: 20%;*/
 	margin: 20px;
 	display: block;
 	text-decoration: none;
 }
 .info__img {
-	/*height: 220px;*/
 	padding: 0 0 75% 0;
 	overflow: hidden;
 	display: block;
@@ -165,7 +163,8 @@ header {
 .info__img img{
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -174,9 +173,9 @@ header {
 	font-size: 15px;
 	color: #383838;
 	overflow: hidden;
-	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
 	display: -moz-box;
-	-moz-box-orient: vertical;
 	display: -webkit-box;
 	-webkit-line-clamp: 6;
 	-webkit-box-orient: vertical;
@@ -240,8 +239,6 @@ header {
 	.other__a {
 		right: calc(100% - 248px);
 	}
-	.mySlides {
-		/*background-size: inherit;*/
 }
 
 @media screen and (max-width: 425px) {

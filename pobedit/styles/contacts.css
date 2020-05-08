@@ -1,17 +1,22 @@
 @import './header.css';
 
+/*---префиксы------*/
+
 .contacts-container {
 	background: rgba(0, 0, 0, .8);
 	min-height: 500px;
 	max-width: 1000px;
 	margin: 50px auto;
 	padding: 50px 70px;
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+			justify-content: space-between;
 }
 .contact__title {
 	color: #ffffff;
@@ -60,8 +65,13 @@
 		height: 400px;
 	}
 	.contacts-container {
-		flex-direction: column;
-		align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
 		padding: 40px;
 	}
 	.contact-info {
@@ -71,8 +81,13 @@
 
 @media screen and (max-width: 500px) {
 	.contacts-container {
-		flex-direction: column;
-		align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
 		padding: 40px 20px;
 	}
 	.map {

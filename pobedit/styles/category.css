@@ -1,5 +1,7 @@
 @import './header.css';
 /*####################################*/
+/*----префиксы-----*/
+
 .catalog h3 {
 	color: #ffffff;
 	background: #313234;
@@ -10,14 +12,47 @@
 	letter-spacing: 1.5px;
 }
 .catalog-wrap {
+	display: -ms-grid;
 	display: grid;
-	-webkit-display: grid;
-	-moz-display: grid;
-	-ms-display: grid;
-	-o-display: grid;
+	-ms-grid-columns: 25% 25% 25% 25%;
 	grid-template-columns: 25% 25% 25% 25%;
+	-ms-grid-rows: 25vw 25vw;
 	grid-template-rows: 25vw 25vw;
-	justify-content: center;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+}
+.catalog-wrap > *:nth-child(1) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 1;
+}
+.catalog-wrap > *:nth-child(2) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 2;
+}
+.catalog-wrap > *:nth-child(3) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 3;
+}
+.catalog-wrap > *:nth-child(4) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 4;
+}
+.catalog-wrap > *:nth-child(5) {
+	-ms-grid-row: 2;
+	-ms-grid-column: 1;
+}
+.catalog-wrap > *:nth-child(6) {
+	-ms-grid-row: 2;
+	-ms-grid-column: 2;
+}
+.catalog-wrap > *:nth-child(7) {
+	-ms-grid-row: 2;
+	-ms-grid-column: 3;
+}
+.catalog-wrap > *:nth-child(8) {
+	-ms-grid-row: 2;
+	-ms-grid-column: 4;
 }
 .catalog-card {
 	display: block;
@@ -26,25 +61,17 @@
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
-	filter: grayscale(100%);
-	/* border: 1px solid #535a53; */
+	-webkit-filter: grayscale(100%);
+			filter: grayscale(100%);
 	border: 1px solid #313234;
 	position: relative;
 	overflow: hidden;
 }
 .catalog-card:hover {
-	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+			filter: grayscale(0);
 }
 .catalog-card:hover .catalog-card__name {
-	/*left: 0;
-	right: 0;
-	bottom: 0;
-	background: transparent;
-	color: #000000;
-	padding: 0;
-	height: 25%;
-	text-shadow: 1px 1px white, 2px 2px white, -1px -1px white, -2px -2px white, -1px 1px white, 1px -1px white, -2px 2px white, 2px -2px white, -3px -3px 4px rgba(0,0,0,.3), -3px 3px 4px rgba(0,0,0,.3), 3px 3px 4px rgba(0,0,0,.3), 3px -3px 4px rgba(0,0,0,.3); 
-*/
 	display: none;
 }
 .catalog-card__name {
@@ -57,8 +84,11 @@
 	bottom: 0;
 	height: 100%;
 	padding-top: 45%;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
 }
 
 @media screen and (max-width: 930px) {
@@ -66,13 +96,81 @@
 		font-size: 1.2rem;
 	}
 	.catalog-wrap {
+		-ms-grid-columns: 50% 50%;
 		grid-template-columns: 50% 50%;
+		-ms-grid-rows: 50vw 50vw 50vw 50vw;
 		grid-template-rows: 50vw 50vw 50vw 50vw;
+	}
+	.catalog-wrap > *:nth-child(1) {
+		-ms-grid-row: 1;
+		-ms-grid-column: 1;
+	}
+	.catalog-wrap > *:nth-child(2) {
+		-ms-grid-row: 1;
+		-ms-grid-column: 2;
+	}
+	.catalog-wrap > *:nth-child(3) {
+		-ms-grid-row: 2;
+		-ms-grid-column: 1;
+	}
+	.catalog-wrap > *:nth-child(4) {
+		-ms-grid-row: 2;
+		-ms-grid-column: 2;
+	}
+	.catalog-wrap > *:nth-child(5) {
+		-ms-grid-row: 3;
+		-ms-grid-column: 1;
+	}
+	.catalog-wrap > *:nth-child(6) {
+		-ms-grid-row: 3;
+		-ms-grid-column: 2;
+	}
+	.catalog-wrap > *:nth-child(7) {
+		-ms-grid-row: 4;
+		-ms-grid-column: 1;
+	}
+	.catalog-wrap > *:nth-child(8) {
+		-ms-grid-row: 4;
+		-ms-grid-column: 2;
 	}
 }
 @media screen and (max-width: 600px) {
 	.catalog-wrap {
+		-ms-grid-columns: 100% ;
 		grid-template-columns: 100% ;
+		-ms-grid-rows: 100vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw;
 		grid-template-rows: 100vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw;
+	}
+	.catalog-wrap > *:nth-child(1) {
+		-ms-grid-row: 1;
+		-ms-grid-column: 1;
+	}
+	.catalog-wrap > *:nth-child(2) {
+		-ms-grid-row: 2;
+		-ms-grid-column: 1;
+	}
+	.catalog-wrap > *:nth-child(3) {
+		-ms-grid-row: 3;
+		-ms-grid-column: 1;
+	}
+	.catalog-wrap > *:nth-child(4) {
+		-ms-grid-row: 4;
+		-ms-grid-column: 1;
+	}
+	.catalog-wrap > *:nth-child(5) {
+		-ms-grid-row: 5;
+		-ms-grid-column: 1;
+	}
+	.catalog-wrap > *:nth-child(6) {
+		-ms-grid-row: 6;
+		-ms-grid-column: 1;
+	}
+	.catalog-wrap > *:nth-child(7) {
+		-ms-grid-row: 7;
+		-ms-grid-column: 1;
+	}
+	.catalog-wrap > *:nth-child(8) {
+		-ms-grid-row: 8;
+		-ms-grid-column: 1;
 	}
 }
