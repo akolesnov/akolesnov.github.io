@@ -152,7 +152,6 @@ nav li:hover > .submenu {
 		-ms-flex-pack: justify;
 			justify-content: space-between;
 	position: relative;
-	/*margin-bottom: 37rem;*/
 }
 .logo {
 	padding: 7px;
@@ -176,7 +175,6 @@ nav li:hover > .submenu {
 }
 .input-search {
 	padding: 0 10px;
-	width: 95%;
 	width: calc(100% - 46px);
 	-webkit-appearance: none;
 }
@@ -358,6 +356,9 @@ footer{
 	}
 	.contacts a {
 		font-size: 15px;
+	}
+	.input-search {
+		max-width: 300px !important;
 	}
 }
 
