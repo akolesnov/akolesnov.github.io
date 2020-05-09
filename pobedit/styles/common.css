@@ -178,6 +178,7 @@ nav li:hover > .submenu {
 	padding: 0 10px;
 	width: 95%;
 	width: calc(100% - 30px);
+	-webkit-appearance: none;
 }
 .input-search::::-ms-clear {
 	display: none;

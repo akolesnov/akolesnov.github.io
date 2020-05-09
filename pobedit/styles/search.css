@@ -21,10 +21,11 @@
 	color: #0b79bf;
 }
 .search-form {
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 50px 60px;
 }
@@ -38,6 +39,7 @@
 	border-right: none;
 	padding: 5px 15px;
 	font-size: 20px;
+	-webkit-appearance: none;
 }
 .seaaa-submit {
 	height: 40px;
