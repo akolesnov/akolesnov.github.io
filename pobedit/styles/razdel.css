@@ -148,10 +148,10 @@
 
 @media screen and (max-width: 800px) {
 	.razdel-top {
-		-webkit-box-orient: vertical;
+/*		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 			-ms-flex-direction: column;
-				flex-direction: column;
+				flex-direction: column;*/
 		width: 600px;
 		margin: 0 auto;
 	}
@@ -161,7 +161,8 @@
 		padding-bottom: 40px;
 	}
 	.razdel__img {
-		width: 100%;
+		/*width: 100%;*/
+		display: none;
 	}
 	.product {
 		/*width: 70rem;*/
