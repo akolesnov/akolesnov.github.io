@@ -109,6 +109,34 @@
 .left {
 	text-align: left;
 }
+.downloads-wrap {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.download {
+	padding: 0 50px;
+}
+.download__name {
+	color: #383838;
+	font-size: 15px;
+	line-height: 22px;
+	font-style: normal;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.download__link {
+	font-size: 15px;
+	line-height: 22px;
+	font-style: normal;
+	font-weight: 700;
+	color: #0B79BF;
+	text-decoration: none;
+	display: block;
+}
 
 .dop-ob__title {
 	text-align: center;
@@ -217,12 +245,20 @@
 }
 
 @media screen and (max-width: 450px) {
-
 	.tabs__block td>br {
 		display: block;
 	}
 	.content-title {
 		font-size: 20px;
+	}
+	.downloads-wrap {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.download {
+		padding: 20px;
 	}
 }
 
