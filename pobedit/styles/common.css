@@ -168,9 +168,6 @@ nav li:hover > .submenu {
 	-o-transition: .3s linear;
 	transition: .3s linear;
 }
-.search form {
-	width: 100%;
-}
 .input-submit, .input-search {
 	color: #ffffff;
 	border-style: none;
@@ -179,7 +176,8 @@ nav li:hover > .submenu {
 }
 .input-search {
 	padding: 0 10px;
-	width: calc(100% - 46px);
+	/*width: calc(100% - 46px);*/
+	width: 95%;
 	-webkit-appearance: none;
 }
 .input-search::::-ms-clear {
@@ -325,7 +323,9 @@ footer{
 	.burger-menu {
 		display: block;
 	}
-
+	.input-search {
+		width: 90%;
+	}
 }
 @media screen and (max-width: 790px) {
 
@@ -359,6 +359,7 @@ footer{
 }
 @media screen and (max-width: 425px) {
 	.input-search {
+		width: 85%;
 		max-width: 379px;
 	}
 	.burger-menu {
