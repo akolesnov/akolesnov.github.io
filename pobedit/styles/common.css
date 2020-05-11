@@ -176,7 +176,6 @@ nav li:hover > .submenu {
 }
 .input-search {
 	padding: 0 10px;
-	width: 95%;
 	width: calc(100% - 46px);
 	-webkit-appearance: none;
 }
@@ -277,7 +276,7 @@ footer{
 @media screen and (max-width: 930px) {
 	header {
 		max-width: 930px;
-		overflow: hidden;
+		/*overflow: hidden;*/
 	}
 	.bottom-container {
 		-moz-flex-direction: column;
@@ -329,7 +328,7 @@ footer{
 	header {
 		max-width: 790px;
 	}
-	.bottom-container {
+	.search {
 		max-width: 790px;
 	}
 	.footer-nav ul {
@@ -352,7 +351,7 @@ footer{
 	header {
 		max-width: 480px;
 	}
-	.bottom-container {
+	.search {
 		max-width: 480px;
 	}
 	.logo img {
@@ -369,7 +368,7 @@ footer{
 	header {
 		max-width: 425px;
 	}
-	.bottom-container {
+	.search {
 		max-width: 425px;
 	}
 	.burger-menu {
@@ -385,12 +384,36 @@ footer{
 		font-size: 15px;
 	}
 }
+@media screen and (max-width: 414px) {
+	header {
+		max-width: 414px;
+	}
+	.search {
+		max-width: 414px;
+	}
+}
+@media screen and (max-width: 380px) {
+	header {
+		max-width: 380px;
+	}
+	.search {
+		max-width: 380px;
+	}
+}
+@media screen and (max-width: 375px) {
+	header {
+		max-width: 375px;
+	}
+	.search {
+		max-width: 375px;
+	}
+}
 
 @media screen and (max-width: 370px) {
 	header {
 		max-width: 370px;
 	}
-	.bottom-container {
+	.search {
 		max-width: 370px;
 	}
 	.logo img {
@@ -399,19 +422,24 @@ footer{
 	.contacts p {
 		font-size: 13px;
 	}
-	.topmenu {
-		max-width: 370px;
-	}
 }
 
 @media screen and (max-width: 330px) {
 	header {
 		max-width: 330px;
 	}
-	.bottom-container {
+	.search {
 		max-width: 330px;
 	}
 	.logo img {
 		height: 2.5rem;
+	}
+}
+@media screen and (max-width: 320px) {
+	header {
+		max-width: 320px;
+	}
+	.search {
+		max-width: 320px;
 	}
 }
