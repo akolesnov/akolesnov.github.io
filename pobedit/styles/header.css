@@ -14,6 +14,9 @@ header {
 	color: #ffffff;
 	padding-top: 115px;
 }
+.header__title br {
+	display: none;
+}
 .separator {
 	width: 65px;
 	height: 2px;
@@ -42,7 +45,11 @@ header {
 		margin-right: 20px;
 	}
 }
-
+@media screen and (max-width: 530px) {
+	.header__title br {
+		display: block;
+	}
+}
 @media screen and (max-width: 430px) {
 	.header__title {
 		font-size: 27px;

@@ -329,6 +329,9 @@ footer{
 	header {
 		max-width: 790px;
 	}
+	.bottom-container {
+		max-width: 790px;
+	}
 	.footer-nav ul {
 		display: none;
 	}
@@ -349,6 +352,9 @@ footer{
 	header {
 		max-width: 480px;
 	}
+	.bottom-container {
+		max-width: 480px;
+	}
 	.logo img {
 		height: 3.5rem;
 	}
@@ -361,6 +367,9 @@ footer{
 }
 @media screen and (max-width: 425px) {
 	header {
+		max-width: 425px;
+	}
+	.bottom-container {
 		max-width: 425px;
 	}
 	.burger-menu {
@@ -381,6 +390,9 @@ footer{
 	header {
 		max-width: 370px;
 	}
+	.bottom-container {
+		max-width: 370px;
+	}
 	.logo img {
 		height: 2.7rem;
 	}
@@ -394,6 +406,9 @@ footer{
 
 @media screen and (max-width: 330px) {
 	header {
+		max-width: 330px;
+	}
+	.bottom-container {
 		max-width: 330px;
 	}
 	.logo img {

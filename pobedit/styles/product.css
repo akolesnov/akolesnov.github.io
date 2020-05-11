@@ -83,7 +83,7 @@
 	border-radius: 0 0 10px 10px;
 	display: none;
 	padding: 3rem 3rem;
-	min-height: 20rem;
+	min-height: 22rem;
 	color: #383838;
 	font-size: 15px;
 	line-height: 22px;
@@ -258,7 +258,11 @@
 		padding: 5px;
 	}
 }
-
+@media screen and (max-width: 510px) {
+	.download {
+		margin: 0 30px;
+	}
+}
 @media screen and (max-width: 450px) {
 	.tabs__block td>br {
 		display: block;
@@ -269,8 +273,11 @@
 	.downloads-wrap {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
-		    -ms-flex-direction: column;
-		        flex-direction: column;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	.download {
 		padding: 20px;
