@@ -118,7 +118,9 @@
 	display: flex;
 }
 .download {
-	padding: 0 50px;
+	margin: 0 50px;
+	width: 200px;
+	text-align: center;
 }
 .download__name {
 	color: #383838;
@@ -126,7 +128,16 @@
 	line-height: 22px;
 	font-style: normal;
 	font-weight: 700;
-	margin-bottom: 15px;
+	/*margin-bottom: 15px;*/
+	margin-bottom: 5px;
+}
+.catalog__name {
+	color: #383838;
+	font-size: 15px;
+	line-height: 18px;
+	font-style: normal;
+	font-weight: 700;
+	display: none;
 }
 .download__link {
 	font-size: 15px;
@@ -135,6 +146,10 @@
 	font-weight: 700;
 	color: #0B79BF;
 	text-decoration: none;
+	display: block;
+	margin-top: 5px;
+}
+.download__link:hover~.catalog__name {
 	display: block;
 }
 
