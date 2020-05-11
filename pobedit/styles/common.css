@@ -168,6 +168,9 @@ nav li:hover > .submenu {
 	-o-transition: .3s linear;
 	transition: .3s linear;
 }
+.search form {
+	width: 100%;
+}
 .input-submit, .input-search {
 	color: #ffffff;
 	border-style: none;
@@ -214,6 +217,9 @@ footer{
 	font-size: 1rem;
 	margin: 0 auto;
 	letter-spacing: 1px;
+}
+.contacts br {
+	display: none;
 }
 .contacts a {
 	text-decoration: none;
@@ -274,10 +280,7 @@ footer{
 }
 
 @media screen and (max-width: 930px) {
-	header {
-		max-width: 930px;
-		/*overflow: hidden;*/
-	}
+
 	.bottom-container {
 		-moz-flex-direction: column;
 		-ms-flex-direction: column;
@@ -325,12 +328,7 @@ footer{
 
 }
 @media screen and (max-width: 790px) {
-	header {
-		max-width: 790px;
-	}
-	.search {
-		max-width: 790px;
-	}
+
 	.footer-nav ul {
 		display: none;
 	}
@@ -348,12 +346,7 @@ footer{
 }
 
 @media screen and (max-width: 480px) {
-	header {
-		max-width: 480px;
-	}
-	.search {
-		max-width: 480px;
-	}
+
 	.logo img {
 		height: 3.5rem;
 	}
@@ -365,11 +358,8 @@ footer{
 	}
 }
 @media screen and (max-width: 425px) {
-	header {
-		max-width: 425px;
-	}
-	.search {
-		max-width: 425px;
+	.input-search {
+		max-width: 379px;
 	}
 	.burger-menu {
 		top: 19px;
@@ -385,37 +375,26 @@ footer{
 	}
 }
 @media screen and (max-width: 414px) {
-	header {
-		max-width: 414px;
-	}
-	.search {
-		max-width: 414px;
+	.input-search {
+		max-width: 368px;
 	}
 }
 @media screen and (max-width: 380px) {
-	header {
-		max-width: 380px;
+	.input-search {
+		max-width: 334px;
 	}
-	.search {
-		max-width: 380px;
+	.contacts br {
+		display: block;
 	}
 }
 @media screen and (max-width: 375px) {
-	header {
-		max-width: 375px;
-	}
-	.search {
-		max-width: 375px;
+	.input-search {
+		max-width: 329px;
 	}
 }
 
 @media screen and (max-width: 370px) {
-	header {
-		max-width: 370px;
-	}
-	.search {
-		max-width: 370px;
-	}
+
 	.logo img {
 		height: 2.7rem;
 	}
@@ -425,21 +404,13 @@ footer{
 }
 
 @media screen and (max-width: 330px) {
-	header {
-		max-width: 330px;
-	}
-	.search {
-		max-width: 330px;
-	}
+	
 	.logo img {
 		height: 2.5rem;
 	}
 }
 @media screen and (max-width: 320px) {
-	header {
-		max-width: 320px;
-	}
-	.search {
-		max-width: 320px;
+	.input-search {
+		max-width: 274px;
 	}
 }
