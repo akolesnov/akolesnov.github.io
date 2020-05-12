@@ -176,8 +176,7 @@ nav li:hover > .submenu {
 }
 .input-search {
 	padding: 0 10px;
-	/*width: calc(100% - 46px);*/
-	width: 95%;
+	width: calc(100% - 46px);
 	-webkit-appearance: none;
 }
 .input-search::::-ms-clear {
@@ -247,7 +246,6 @@ footer{
 		-ms-flex-pack: center;
 			justify-content: center;
 	margin: 0.5rem 0;
-	/*margin-right: 5rem;*/
 }
 .social-icon{
 	width: 40px;
@@ -323,9 +321,6 @@ footer{
 	.burger-menu {
 		display: block;
 	}
-	.input-search {
-		width: 90%;
-	}
 }
 @media screen and (max-width: 790px) {
 
@@ -356,11 +351,22 @@ footer{
 	.contacts > .logo > img {
 		height: 3.6rem;
 	}
+	.topmenu, .search {
+		max-width: 480px;
+	}
+	.search>.container>form {
+		max-width: 480px;
+	}
 }
 @media screen and (max-width: 425px) {
 	.input-search {
-		width: 85%;
 		max-width: 379px;
+	}
+	.topmenu, .search {
+		max-width: 425px;
+	}
+	.search>.container>form {
+		max-width: 480px;
 	}
 	.burger-menu {
 		top: 19px;
@@ -379,10 +385,22 @@ footer{
 	.input-search {
 		max-width: 368px;
 	}
+	.topmenu, .search {
+		max-width: 414px;
+	}
+	.search>.container>form {
+		max-width: 480px;
+	}
 }
 @media screen and (max-width: 380px) {
 	.input-search {
 		max-width: 334px;
+	}
+	.topmenu, .search {
+		max-width: 380px;
+	}
+	.search>.container>form {
+		max-width: 480px;
 	}
 	.contacts br {
 		display: block;
@@ -391,6 +409,12 @@ footer{
 @media screen and (max-width: 375px) {
 	.input-search {
 		max-width: 329px;
+	}
+	.topmenu, .search {
+		max-width: 375px;
+	}
+	.search>.container>form {
+		max-width: 480px;
 	}
 }
 
@@ -405,7 +429,12 @@ footer{
 }
 
 @media screen and (max-width: 330px) {
-	
+	.topmenu, .search {
+		max-width: 330px;
+	}
+	.search>.container>form {
+		max-width: 480px;
+	}
 	.logo img {
 		height: 2.5rem;
 	}
@@ -413,5 +442,11 @@ footer{
 @media screen and (max-width: 320px) {
 	.input-search {
 		max-width: 274px;
+	}
+	.topmenu, .search {
+		max-width: 320px;
+	}
+	.search>.container>form {
+		max-width: 480px;
 	}
 }
