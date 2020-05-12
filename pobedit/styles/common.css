@@ -300,6 +300,9 @@ footer{
 		-o-transition: 3s;
 		transition: 3s;
 	}
+	.submenu {
+		display: none;
+	}
 	.topmenu li {
 		float: none;
 	}
