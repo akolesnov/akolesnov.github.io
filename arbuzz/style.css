@@ -86,28 +86,32 @@ body {
       right: 0;
       z-index: 10; }
   .socials .mail {
-    background: url("./files/images/icons/mail.png") no-repeat;
+    background: url("./files/images/icons/mail.svg") no-repeat;
     width: 25px;
     background-size: contain;
     background-position: center; }
   .socials .telegram {
-    background: url("./files/images/icons/telegram.png") no-repeat;
+    background: url("./files/images/icons/telegram.svg") no-repeat;
     width: 20px;
     background-size: contain;
     background-position: center; }
   .socials .moon {
-    background: url("./files/images/icons/moon.png") no-repeat;
+    background: url("./files/images/icons/moon.svg") no-repeat;
     background-position: center;
     background-size: contain; }
 
 .brand {
-  background: url("./files/images/mobile.jpg") no-repeat;
+  background: url("./files/images/mobile.png") no-repeat;
   background-size: cover;
   background-position: center;
-  padding-bottom: 92%; }
+  padding-bottom: 92%;
+  position: relative; }
   .brand img {
     display: block;
-    width: 100%; }
+    width: 39%;
+    position: absolute;
+    left: 28%;
+    top: 63%; }
   .brand img:last-child {
     display: none; }
 
@@ -152,7 +156,7 @@ body {
       width: 22px;
       height: 22px;
       display: inline-block;
-      background: url("./files/images/icons/plus.png") no-repeat;
+      background: url("./files/images/icons/plus.svg") no-repeat;
       margin-bottom: 12px; }
     .service__text p {
       font-size: 14px;
@@ -264,14 +268,15 @@ body {
       height: 26px;
       z-index: 40;
       position: absolute;
-      bottom: -50px; }
+      bottom: -50px;
+      cursor: pointer; }
     .reviews__wrap .prevB {
-      background: url("./files/images/icons/prevr.png") no-repeat;
+      background: url("./files/images/icons/prevr.svg") no-repeat;
       background-size: cover;
       background-position: center;
       left: calc(50% - 30px); }
     .reviews__wrap .nextB {
-      background: url("./files/images/icons/nextr.png") no-repeat;
+      background: url("./files/images/icons/nextr.svg") no-repeat;
       background-size: cover;
       background-position: center;
       right: calc(50% - 30px); }
@@ -286,7 +291,7 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-    background: url("./files/images/icons/pal.png");
+    background: url("./files/images/icons/pal.svg");
     background-size: contain; }
   .review::after {
     content: '';
@@ -349,7 +354,7 @@ body {
       display: block;
       width: 100px;
       height: 10px;
-      background: url("./files/images/icons/palG.png");
+      background: url("./files/images/icons/palG.svg");
       background-size: contain;
       position: absolute;
       left: 0;
@@ -363,7 +368,8 @@ body {
   .feedback .form select {
     font-size: 14px;
     line-height: 149%;
-    color: #C4C4C4; }
+    color: #C4C4C4;
+    -webkit-appearance: none; }
     .feedback .form select option:checked {
       color: #F85453; }
   .feedback .form__input {
@@ -372,7 +378,7 @@ body {
   .feedback .form__input input, .feedback .form select {
     width: 100%;
     height: 41px;
-    padding: 10px;
+    padding: 0 10px;
     outline: none;
     border: 1px solid #C4C4C4;
     border-radius: 4px;
@@ -458,15 +464,15 @@ body {
     .dark .header .header__logo img:last-child {
       display: block; }
     .dark .header .socials .mail {
-      background: url("./files/images/icons/mailW.png") no-repeat;
+      background: url("./files/images/icons/mailW.svg") no-repeat;
       background-size: contain;
       background-position: center; }
     .dark .header .socials .telegram {
-      background: url("./files/images/icons/telegramW.png") no-repeat;
+      background: url("./files/images/icons/telegramW.svg") no-repeat;
       background-size: contain;
       background-position: center; }
     .dark .header .socials .moon {
-      background: url("./files/images/icons/moonW.png") no-repeat;
+      background: url("./files/images/icons/moonW.svg") no-repeat;
       background-size: contain;
       background-position: center; }
   .dark .title {
@@ -481,7 +487,7 @@ body {
     .dark .service .service__text p {
       color: #fff; }
     .dark .service .service__text .close-btn {
-      background: url("./files/images/icons/plusW.png"); }
+      background: url("./files/images/icons/plusW.svg"); }
   .dark .block-1 {
     background: #01190E; }
     .dark .block-1 .service__text {
@@ -505,7 +511,7 @@ body {
   .dark .review .review__subscribe {
     color: #D4D4D4; }
   .dark .review::before {
-    background: url("./files/images/icons/palW.png");
+    background: url("./files/images/icons/palW.svg");
     background-size: contain; }
   .dark .feedback .feedback__text {
     color: #BFBFBF;
@@ -532,6 +538,10 @@ body {
     background: url("./files/images/mobileB.png") no-repeat;
     background-size: cover;
     background-position: center; }
+    .dark .brand img:first-child {
+      display: none; }
+    .dark .brand img:last-child {
+      display: block; }
   .dark .block-1 .service__right {
     background-image: url("./files/images/block-1B.png"); }
   .dark .block-2 .service__right {
@@ -585,10 +595,17 @@ body {
     .socials .moon:hover {
       cursor: pointer; }
   .brand {
-    background-image: url("./files/images/Mask.jpg");
+    background-image: url("./files/images/Mask.png");
     padding-bottom: 51%; }
+    .brand img {
+      width: 25%;
+      position: absolute;
+      left: 36%;
+      top: 58%; }
   .dark .brand {
-    background-image: url("./files/images/MaskB.jpg"); } }
+    background-image: url("./files/images/MaskB.png"); }
+    .dark .brand img {
+      top: 64%; } }
 
 @media screen and (min-width: 996px) {
   .services {
@@ -608,8 +625,7 @@ body {
     width: 996px;
     height: 512px;
     margin: 0 auto 87px auto;
-    background: #FAFAFA;
-    border: 1px solid #F0F0F0; }
+    background: #FAFAFA; }
     .service__info {
       -webkit-box-ordinal-group: 1;
       -ms-flex-order: 0;
@@ -764,7 +780,7 @@ body {
       height: 8px;
       position: absolute; }
     .review::after {
-      width: 305px;
+      width: 290px;
       height: 6px; }
     .review__video {
       height: 218px; }
@@ -785,17 +801,16 @@ body {
       font-size: 16px;
       line-height: 19px; }
   .dark .reviews__wrap .prevB {
-    background-image: url("./files/images/icons/prevG.png"); }
+    background-image: url("./files/images/icons/prevG.svg"); }
   .dark .reviews__wrap .nextB {
-    background-image: url("./files/images/icons/nextG.png"); }
+    background-image: url("./files/images/icons/nextG.svg"); }
   .feedback {
-    padding-top: 170px;
     padding-bottom: 85px; }
     .feedback .title {
       text-align: left;
       margin-bottom: 36px; }
       .feedback .title::before {
-        width: 210px;
+        width: 220px;
         height: 21px;
         top: -25px; }
     .feedback__text {
@@ -815,7 +830,7 @@ body {
       .feedback .form__input input, .feedback .form select {
         width: 285px;
         height: 55px;
-        padding: 16px 14px 15px;
+        padding: 0 16px;
         border-radius: 5px;
         background: #fff;
         font-size: 16px;
