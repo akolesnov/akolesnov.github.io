@@ -136,7 +136,8 @@ body {
   .service__right {
     padding-bottom: 103%;
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    background-repeat: no-repeat; }
   .service__text {
     position: fixed;
     z-index: 100;
@@ -369,9 +370,19 @@ body {
     font-size: 14px;
     line-height: 149%;
     color: #C4C4C4;
-    -webkit-appearance: none; }
+    -webkit-appearance: none;
+    position: relative; }
     .feedback .form select option:checked {
       color: #F85453; }
+    .feedback .form select::before {
+      content: '';
+      display: block;
+      width: 9px;
+      height: 5px;
+      background: url("./files/images/icons/gray.svg") no-repeat;
+      background-position: center;
+      position: absolute;
+      right: 18px; }
   .feedback .form__input {
     margin-bottom: 12px;
     position: relative; }
@@ -554,6 +565,43 @@ body {
     background-image: url("./files/images/computerB.png"); }
   .dark .block-3 .service__right .grid .grid-4 {
     background-image: url("./files/images/lotoB.png"); }
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 1000; }
+
+.modal {
+  position: fixed;
+  width: 300px;
+  height: 200px;
+  padding: 70px 20px 30px;
+  background: #FAFAFA;
+  display: none;
+  z-index: 1001;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  text-align: center;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #1F1F1F; }
+
+.close-btn {
+  position: absolute;
+  font-size: 20px;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  z-index: 1002; }
 
 @media screen and (min-width: 768px) {
   body {
@@ -872,7 +920,62 @@ body {
       background: #121212;
       color: #5CC560; }
     .dark .feedback .form .form__input input {
-      background: #121212; } }
+      background: #121212; }
+  .fadeInRight {
+    -webkit-animation: fadeInRight ease 2s;
+    animation: fadeInRight ease 2s; }
+  .fadeInLeft {
+    -webkit-animation: fadeInLeft ease 2s;
+    animation: fadeInLeft ease 2s; }
+  .fade {
+    -webkit-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s; }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @-webkit-keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(300px);
+      transform: translateX(300px); }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0); } }
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(300px);
+      transform: translateX(300px); }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0); } }
+  @-webkit-keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-300px);
+      transform: translateX(-300px); }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0); } }
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-300px);
+      transform: translateX(-300px); }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0); } } }
 
 @media screen and (min-width: 1400px) {
   .reviews__wrap .prevB {
