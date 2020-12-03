@@ -103,10 +103,10 @@ body {
   margin: 0 auto; }
   .brand img {
     display: block;
-    width: 39%;
+    width: 38%;
     position: absolute;
     left: 28%;
-    top: 63%; }
+    top: 62%; }
   .brand img:last-child {
     display: none; }
 
@@ -223,13 +223,13 @@ body {
       background-position: center;
       background-size: cover; }
     .block-3 .service__right .grid .grid-1 {
-      background-image: url("./files/images/tea.png"); }
+      background-image: url("./files/images/tea.svg"); }
     .block-3 .service__right .grid .grid-2 {
-      background-image: url("./files/images/phone.png"); }
+      background-image: url("./files/images/phone.svg"); }
     .block-3 .service__right .grid .grid-3 {
-      background-image: url("./files/images/computer.png"); }
+      background-image: url("./files/images/computer.svg"); }
     .block-3 .service__right .grid .grid-4 {
-      background-image: url("./files/images/loto.png"); }
+      background-image: url("./files/images/loto.svg"); }
 
 .block-3 .service__text {
   background: #B3EE7A; }
@@ -283,12 +283,12 @@ body {
       bottom: -50px;
       cursor: pointer; }
     .reviews__wrap .prevB {
-      background: url("./files/images/icons/prevr.svg") no-repeat;
+      background: url("./files/images/icons/prevR.svg") no-repeat;
       background-size: cover;
       background-position: center;
       left: calc(50% - 30px); }
     .reviews__wrap .nextB {
-      background: url("./files/images/icons/nextr.svg") no-repeat;
+      background: url("./files/images/icons/nextR.svg") no-repeat;
       background-size: cover;
       background-position: center;
       right: calc(50% - 30px); }
@@ -397,6 +397,18 @@ body {
       max-height: 165px; }
     .feedback__line svg:last-child {
       max-height: 180px; }
+  .feedback__names {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .feedback__names p {
+      color: #2D2D2D;
+      font-size: 14px;
+      margin-bottom: 20px; }
+    .feedback__names p:firs-child {
+      padding-left: 30px; }
   .feedback__switch {
     position: relative;
     display: inline-block;
@@ -598,6 +610,8 @@ body {
   .dark .feedback .feedback__text {
     color: #BFBFBF;
     background: #1F1F1F; }
+  .dark .feedback .feedback__names p {
+    color: #fff; }
   .dark .feedback .form__input input {
     color: #5CC560;
     background: #1F1F1F; }
@@ -624,13 +638,13 @@ body {
     .dark .brand img:last-child {
       display: block; }
   .dark .block-3 .service__right .grid .grid-1 {
-    background-image: url("./files/images/teaB.png"); }
+    background-image: url("./files/images/teaB.svg"); }
   .dark .block-3 .service__right .grid .grid-2 {
-    background-image: url("./files/images/phoneB.png"); }
+    background-image: url("./files/images/phoneB.svg"); }
   .dark .block-3 .service__right .grid .grid-3 {
-    background-image: url("./files/images/computerB.png"); }
+    background-image: url("./files/images/computerB.svg"); }
   .dark .block-3 .service__right .grid .grid-4 {
-    background-image: url("./files/images/lotoB.png"); }
+    background-image: url("./files/images/lotoB.svg"); }
   .dark .w_b {
     fill: #ffffff; }
 
@@ -671,6 +685,9 @@ body {
   font-weight: 500;
   z-index: 1002; }
 
+.blured {
+  opacity: .3; }
+
 @media screen and (min-width: 460px) {
   .service__text .close-btn {
     left: 15%; }
@@ -695,10 +712,15 @@ body {
   .brand {
     padding-bottom: 51%; }
     .brand img {
-      width: 25%;
+      width: 24%;
       position: absolute;
       left: 36%;
-      top: 64%; }
+      top: 63%; }
+  .feedback__names p {
+    font-size: 18px;
+    margin-bottom: 30px; }
+  .feedback__names p:firs-child {
+    padding-left: 60px; }
   .feedback__line {
     height: 316px; }
   .feedback svg:first-child {
@@ -927,6 +949,12 @@ body {
       line-height: 28px;
       padding-right: 276px;
       margin-bottom: 50px; }
+    .feedback__names p {
+      margin-bottom: 40px;
+      font-size: 24px;
+      font-weight: 700; }
+    .feedback__names p:first-child {
+      padding-left: 90px; }
     .feedback .form {
       padding: 59px 145px 59px 64px;
       background: #fff;
